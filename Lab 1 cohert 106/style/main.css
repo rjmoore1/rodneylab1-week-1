@@ -1,0 +1,109 @@
+header{
+  font-size: 30px;
+    color: plum;
+    text-decoration-color: #cc3fcec9;
+
+}
+
+
+body{
+    margin:20px;
+    background: rgb(228, 228, 160);
+    background-image: -webkit-repeating-radial-gradient(rgb(242, 242, 166 ), purple);
+
+}
+
+h1{
+    background-color:#642f65c9;
+    color:rgb(232, 223, 131);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+
+}
+.create-form{
+    margin: 40px 100px 100px 40px;
+    border: 1px solid #ccc;
+    background-color:purple;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+
+#txtTodo{
+    padding:10px 10px;
+    margin-right: 40px;
+    border-radius: 5%;
+    backdrop-filter:white;
+
+   
+    
+    
+   
+}
+
+
+ul{
+    padding:30px;
+}
+
+ul li{
+
+list-style-type: none;
+border-radius: 10px;
+background-color: #b729d3;
+padding:5px 10px;
+border:1px solid #e1e1e1;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.3rem;
+margin-bottom:0.5%;
+margin-left:35px;
+margin-right:95px;
+text-align: center;
+animation: fadeIn 0.5s linear;
+animation-fill-mode:both;
+color: white;
+}
+
+ ul li:hover{
+color: rgb(218, 249, 67)
+
+}
+#btnSave {
+    box-shadow: inset 0px 1px 0px 0px #e184f3;
+    background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+    background-color: #c123de;
+    border-radius: 6px;
+    border: 1px solid #a511c0;
+    display: inline-block;
+    cursor: pointer;
+    color: #e7eb81;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #9b14b3;
+}
+
+#btnSave:hover {
+    background: linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+    background-color: #a20dbd;
+}
+
+#btnSave:active {
+    position: relative;
+    top: 1px;
+    width: 10px;
+}
+
+
+
+
+
+
+
